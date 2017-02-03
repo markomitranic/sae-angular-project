@@ -30,6 +30,7 @@
 	<![endif]-->
 	<link href="zimt.css" rel="stylesheet" type="text/css" />
 	<link href="zimt2.css" rel="stylesheet" type="text/css" />
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
 	<!-- jQuery CDN -->
 	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
@@ -65,25 +66,64 @@
 		<div id="svi-proizvodi">
 			<div id="cart-list">
 				<h1>Your Cart:</h1>
-				<table>
-					<tr>
-						<td>Sushi bowl extra large for three people</td>
-						<td>5,90$</td>
-						<td><img src="image/remove.png" class="remove-button unclickable" alt="Remove item"></td>
-					</tr>
-					<tr>
-						<td>Sushi bowl extra large for three people</td>
-						<td>5,90$</td>
-						<td><img src="image/remove.png" class="remove-button unclickable" alt="Remove item"></td>
-					</tr>
-					<tr>
-						<td>Sushi bowl extra large for three people</td>
-						<td>5,90$</td>
-						<td><img src="image/remove.png" class="remove-button unclickable" alt="Remove item"></td>
-					</tr>
-				</table>
-				<p>Total: <span>12,30$</span></p>
-				<button>☞</button>
+
+				<div class="cart-item">
+					<div class="cart-item-image"
+					style="background-image: url('image/pan-cakes-main.png');"></div>
+					<div class="cart-item-body">
+						<h4>Sushi bowl extra large for three people</h4>
+						<p class="cart-price">Price: 3.99$</p>
+						<p class="cart-servings">Servings: 3</p>
+
+						<div class="cart-button-settings"><i class="fa fa-cog" aria-hidden="true"></i></div>
+						<div class="cart-button-delete"><i class="fa fa-minus-circle" aria-hidden="true"></i></div>
+					</div>
+
+
+					<div class="cart-settings">
+						<div class="cart-settings-bacon">
+							<p class="cart-settings-title">Amount of Bacon</p>
+							<p class="cart-settings-number">3.2</p>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="cart-item">
+					<div class="cart-item-image"
+					style="background-image: url('image/pan-cakes-main.png');"></div>
+					<div class="cart-item-body">
+						<h4>Sushi bowl extra large for three people</h4>
+						<p class="cart-price">Price: 3.99$</p>
+						<p class="cart-servings">Servings: 3</p>
+
+						<div class="cart-button-settings"><i class="fa fa-cog" aria-hidden="true"></i></div>
+						<div class="cart-button-delete"><i class="fa fa-minus-circle" aria-hidden="true"></i></div>
+					</div>
+				</div>
+
+
+
+				<div class="cart-item">
+					<div class="cart-item-image"
+					style="background-image: url('image/pan-cakes-main.png');"></div>
+					<div class="cart-item-body">
+						<h4>Sushi bowl extra large for three people</h4>
+						<p class="cart-price">Price: 3.99$</p>
+						<p class="cart-servings">Servings: 3</p>
+
+						<div class="cart-button-settings"><i class="fa fa-cog" aria-hidden="true"></i></div>
+						<div class="cart-button-delete"><i class="fa fa-minus-circle" aria-hidden="true"></i></div>
+					</div>
+				</div>
+
+
+				<div class="cart-next-step">
+					<p>Total: <span>12,30$</span></p>
+					<button>☞</button>
+				</div>
+
+
 			</div>
 		</div> 
 
