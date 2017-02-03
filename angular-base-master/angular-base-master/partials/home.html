@@ -1,0 +1,22 @@
+<h1>Home</h1>
+<p>This is home page</p>
+
+<div ng-controller="homeController">
+	<input ng-class="ime ? 'ima-ime' : 'nema-ime' " type="text" ng-model="ime"><br>
+	<h1 ng-show="ime">Zdravo {{ ime }}!</h1>
+	<hr>
+
+	<button ng-click="showMessage()">Click Me!</button>
+	<hr>
+
+	<div>{{users[0]}}</div>
+	<hr>
+
+	<ul>
+		<li ng-repeat="user in users | filter: ime">
+			<a ng-href="#/user/{{user.id}}"><strong>{{ user.name | captalize }} {{ user.lastName | captalize }}</strong></a><br>
+			<span>{{user.email | lowercase }}</span>
+		</li>
+	</ul>
+	<hr>
+</div>
