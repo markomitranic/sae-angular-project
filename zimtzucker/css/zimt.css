@@ -1,0 +1,1042 @@
+@font-face {
+	font-family: 'AmericanTypewriter';
+	src: url('cufonts.com_american-typewriter.eot');
+	src: url('ufonts.com_american-typewriter.eot?#iefix') format('embedded-opentype'),
+	url('ufonts.com_american-typewriter.woff') format('woff'),
+	url('ufonts.com_american-typewriter.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+body {
+	background-color:#fff;
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	color:#d8c08a;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 1em;
+	line-height: 22px;
+
+}
+
+li {
+	color:#000;
+	cursor: pointer;
+	text-decoration:none;
+	display: inline;
+	padding:  8px;
+}		
+
+
+li:hover {color:#a6083c;}
+a:after {color:#fff;}
+
+
+.unclickable {
+	-webkit-user-select: none;  
+	-moz-user-select: none;    
+	-ms-user-select: none;      
+	user-select: none;
+	user-drag: none;
+	-moz-user-drag: none;
+	-webkit-user-drag: none;
+	-webkit-touch-callout: none; /* iOS Safari */
+}
+
+main {
+	width: 100vw;
+	height: calc(100vh - 240px);
+	padding: 0;
+	position: relative;
+	top: 120px;
+	left: 0;
+	overflow-x: hidden;
+	background-size: cover;
+	background-position: left center;
+	background-repeat: no-repeat;
+	background-image:url('../image/back.jpg');
+}
+
+main > div {
+	margin: 20px 40px;
+	padding: 0;
+}
+
+.menu-back {
+	top: 0px;
+	left: 0px;
+	width:100%;
+	height:120px;
+	position:fixed;	
+	border: 0px solid #fff;
+	background-color:#FFF;
+	z-index:1099; 
+}
+
+.mobile-hidden {
+	display: none;
+}
+
+.menu-back-dole {
+	bottom: 0px;
+	left: 0px;
+	width:100%;
+	height:120px;    
+	position:fixed;	
+	border: 0px solid #fff;
+	background-color:#FFF;
+	z-index:1099; 
+}
+
+#checkout-button {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	height: 70px;
+	width: 70px;
+	z-index: 9999;
+	border-radius: 5px 0 0 5px;
+	overflow: hidden;
+	cursor: pointer;
+}
+#checkout-button img {
+	height: 100%;
+	width: 100%;
+}
+.animated-cart-icon {
+    position: fixed;
+    bottom: 90px;
+    right: 20px;
+    height: 70px;
+    width: 70px;
+    z-index: 9999;
+    overflow: hidden;
+    cursor: pointer;
+    display: none;
+    opacity: 1;
+}
+
+#checkout-div {
+    display: none;
+    width: 300px;
+    height: 360px;
+    background-color: rgba(255,255,255,0.9);
+    z-index: 9999;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 120px #737373;
+    padding: 6px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#checkout-div .close-window {
+    display: block;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 25px;
+    height: 25px;
+    z-index: 100000;
+    cursor: pointer;
+}
+
+#checkout-div h1 {
+    font-family: 'AmericanTypewriter';
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 200;
+    text-align: center;
+    margin: 10px 0;
+}
+
+#checkout-div td {
+    border: 1px solid #BDBDBD;
+    background-color: #ECECEC;
+    margin: 0;
+    padding: 3px 5px;
+}
+#checkout-div td:nth-child(1) {
+    font-size: 12px;
+}
+#checkout-div td:nth-child(3) {
+    width: 20px;
+    text-align: center;
+    line-height: 20px;
+}
+#checkout-div td:nth-child(3) .remove-button {
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+}
+#cart-list {
+	display: block;
+}
+#cart-list p {
+	text-align: right;
+    text-transform: uppercase;
+}
+#cart-list p span {
+    background-color: #D9ECD9;
+    padding: 5px;
+    font-weight: 700;
+}
+#checkout-div button {
+    display: block;
+    margin: 10px auto;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid #D2C8C8;
+    background-color: #D9ECD9;
+    color: #4C4C4C;
+    font-size: 20px;
+    text-align: center;
+    line-height: 20px;
+    box-shadow: 0 0 5px #D8D8D8;
+    transition: 0.3s all ease-in-out;
+    cursor: pointer;
+}
+#checkout-div button:hover {
+	box-shadow: 0 0 5px #676565;
+    background-color: #BED4BE;
+    color: black;
+}
+#cart-form {
+	display: none;
+}
+#cart-form form label, #cart-form form input, #cart-form form textarea {
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    color: #868686;
+    transition: 0.2s background-color ease-in-out;
+}
+#form-back-button {
+	cursor: pointer;
+}
+#cart-form form label.error {
+	color: red;
+	font-size: 12px;
+}
+#cart-form form input.error {
+	border-color: red;
+}
+#cart-form form input, #cart-form form textarea {
+	border: 1px solid #C5C5C5;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 16px;
+}
+#cart-aftermath {
+	display: none;
+}
+
+
+
+
+#proizvodi ul {
+	list-style-type: none;
+	font-size: 1em;
+
+}
+
+#proizvodi li {
+	color:#000;
+	text-decoration:none;
+	display: inline;
+	padding:  30px;
+}		
+
+#naslovi-proizvoda {
+	top: 50%;
+	left: 50%;
+	width:1980px;
+	height:120px;
+	margin-top: -280px; 
+	margin-left: -790px; 
+	position:fixed;	
+	border: 0px solid #fff;
+	z-index:100; 
+}
+.animacija {
+	transition: 0.3s ease-in-out;	
+}
+.animacija:hover {
+	-webkit-transform: translateY(-10px);
+	transform: translateY(-10px);	
+}
+
+
+
+.proizvodi-line {
+	max-width: 1500px;
+	width: 100%;
+	margin: 0 auto;
+	display: -webkit-flex;display: -ms-flexbox;display: flex;
+	-webkit-justify-content: space-around;
+	-ms-flex-pack: distribute;
+	justify-content: space-around;
+	-webkit-align-items: flex-end;
+	-ms-flex-align: end;
+	align-items: flex-end;
+	-webkit-flex-wrap: wrap;-ms-flex-wrap: wrap;flex-wrap: wrap;
+}
+
+.proizvodi-line li {
+	text-align: center;
+	padding: 0;
+	margin: 20px;
+}
+
+.proizvodi-line .naslov {
+	margin-bottom: 20px;
+}
+
+
+#kuchen .naslov {
+	-webkit-transform: rotate(-7deg); 
+	transform: rotate(-7deg);
+}
+#kuchen .naslov:hover {
+	-webkit-transform: translateY(-10px);
+	transform: translateY(-10px);
+}
+
+.proizvodi-line img {
+	display: block;
+	margin: 0 auto;
+}
+
+/* Podesavanje unutrasnjih itema */
+.proizvodi-line li {
+	width: 130px;
+}
+.proizvodi-line #kuchen {
+	width: 380px;
+}
+/* Fine tuning odnosa velicina slika */
+.proizvodi-line .slika {
+	width: 90%;
+}
+.proizvodi-line .naslov {
+	width: 60%;
+}
+#kuchen .slika {
+	width: 100%;
+}
+/* Kraj bloka za podesavanje */
+
+
+#logo {
+	top: 65px;
+	left: 60px;
+	position:absolute;
+}
+
+#delivery {
+	width:88px;
+	top: 100px;
+	left: 300px;
+	position:absolute;
+}
+#mobile-dugme {
+	display:none;	
+}
+#mobile-dugme2 {
+	display:none;	
+}
+.menu-back-mobile {
+	display:none;
+	top: 0px;
+	right: 0px;
+	width:200px;
+	height:400px;
+	position:fixed;	
+	border: 0px solid #fff;
+	background-color: rgba(255,255,255,0.9);
+	z-index:1099;
+}
+
+
+#facebook_sve {position:fixed; right:70px; top:80px; cursor:pointer; z-index:1005;}
+
+#fb1 {position:absolute; z-index: 97;} 
+#fb2 {position:absolute; opacity:0.0;filter:alpha(opacity=0); z-index: 120; border-style:none;}
+
+
+#levo_menu {
+	top: 70px;
+	right: 20px;
+	width:700px;
+	position: absolute;
+}
+
+#levo_menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	display: -webkit-flex;display: -ms-flexbox;display: flex;
+	-webkit-justify-content: space-around;-ms-flex-pack: distribute;justify-content: space-around;
+}
+
+
+
+.levi_bar { text-align:left;}
+.desni_bar { text-align:left;}
+
+
+.footer-menu {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-justify-content: space-around;
+	-ms-flex-pack: distribute;
+	justify-content: space-around;
+	margin: 20px auto;
+	width: 300px;
+}
+
+#proizvod-detalji {
+	display:none;
+}
+
+
+.proizvod-slika-pozadina {
+	height: 400px;
+	width: 414px;
+	background-image: url('../image/proizvodi/proizvod-pozadina.png');
+	background-size: contain;
+	background-position: center center;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 50%;
+	left: 20px;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);	
+}
+
+
+.proizvod-slika {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	max-width: 90%;
+	max-height: 90%;
+	width: auto;
+	height: auto;
+}
+
+#opis {
+	width: 500px;
+	position: absolute;
+	top: 50%;
+	left: 380px;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);	
+}
+#opis h2 {
+	font-family: 'AmericanTypewriter';
+	font-size:50px;
+	font-weight:200;	
+}
+#opis h3 {
+	font-family: 'AmericanTypewriter';
+	font-size:18px;
+	font-weight:200;	
+}
+
+#add-to-cart {
+	width: 100px;
+	position: absolute;
+	bottom: 110px;
+	right: 110px;
+	cursor:pointer;
+}
+#add-to-cart:hover {
+	-webkit-filter: brightness(.9);
+    -moz-filter: brightness(.9);
+    -ms-filter: brightness(.9);
+    filter: brightness(.9);
+}
+#cena {
+	position: absolute;
+	background-image: url(../image/cena-back.png);
+	background-size: contain;
+	background-position: center center;
+	background-repeat: no-repeat; 
+	width: 100px;
+	height: 100px;
+	top: 50%;
+	left: 50px;
+	-webkit-transform: translateY(-220px);
+	transform: translateY(-220px);
+}
+#cena h5 {
+	font-family: 'Indie Flower', cursive;
+	font-size:34px;
+	font-weight:200;
+	margin:10px;
+	position:relative;
+	top: 20px;
+	color:#FFF;
+}
+#proizvod-navigacija-desno {
+	display: block;
+    position: absolute;
+    right: 30px;
+    top: 50%;
+	cursor: pointer;
+	width: 0; 
+  height: 0;
+	border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  -webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+  
+  border-left: 20px solid red;
+	
+}
+#proizvod-navigacija-desno:hover {
+border-left: 20px solid   #F60;	
+}
+#proizvod-navigacija-levo:hover {
+border-right:20px solid   #F60;		
+}
+
+#proizvod-navigacija-levo {
+	display: block;
+    position: absolute;
+    left: 30px;
+    top: 50%;
+	cursor: pointer;
+	width: 0; 
+  height: 0; 
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;   
+  border-right:20px solid red; 
+   -webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.impressum-table {
+	position: absolute;
+	width: 100%;
+	left: 30px;
+	border-collapse: collapse;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	
+}
+
+.impressum-table tr {
+	float:left;
+}
+.impressum-table td {
+	vertical-align: middle;
+}
+
+.impressum-naslov {
+	font-family: 'AmericanTypewriter';
+	font-size: 50px;
+	font-weight: 200;
+	}
+.impressum-txt {
+	font-family: 'AmericanTypewriter';
+	font-size: 15px;
+	font-weight: 200;
+	}
+.impressum-bold {
+	font-family: 'AmericanTypewriter';
+	font-size: 18px;
+	font-weight: 900;
+	}
+
+
+
+
+
+@media (max-width: 1366px) {
+
+	/* Podesavanje unutrasnjih itema */
+	.proizvodi-line li {
+		width: 90px;
+	}
+	.proizvodi-line #kuchen {
+		width: 310px;
+	}
+	/* Fine tuning odnosa velicina slika */
+	.proizvodi-line .slika {
+		width: 90%;
+	}
+	.proizvodi-line .naslov {
+		width: 50%;
+	}
+	#kuchen .slika {
+		width: 100%;
+	}
+	/* Kraj bloka za podesavanje */
+
+}
+
+@media (max-width: 1100px) {
+
+	/* Podesavanje unutrasnjih itema */
+	.proizvodi-line li {
+		width: 80px;
+		margin: 0 10px;
+	}
+	.proizvodi-line #kuchen {
+		width: 260px;
+	}
+	/* Fine tuning odnosa velicina slika */
+	.proizvodi-line .slika {
+		width: 90%;
+	}
+	.proizvodi-line .naslov {
+		width: 50%;
+	}
+	#kuchen .slika {
+		width: 100%;
+	}
+	/* Kraj bloka za podesavanje */
+
+	#logo {
+		left: 10px;
+	}
+	#delivery {
+		left: 260px;
+	}
+	#levo_menu {
+		right: 0;
+	}
+	#add-to-cart {
+		right: 20px;
+	}
+	.impressum-table {
+	left: 0px;	
+    }
+}
+
+@media (max-width : 1024px) {
+	.proizvodi-line {
+		width: 100%;
+	}
+	#levo_menu {
+		width: 610px;
+	}
+	#logo {
+		left: 10px;
+		width: 230px;
+	}
+	#delivery {	
+		left: 190px;
+		width: 70px;
+		top: 90px;
+	}
+
+
+	#proizvod-detalji {
+		left: 110px;
+		top: 350px;
+	}
+	#add-to-cart {
+		right: initial;
+		left: 10px;
+		bottom: 50%;
+		-webkit-transform: translateY(190px);
+		transform: translateY(190px);
+	}
+
+}
+
+@media (max-width : 890px) {
+
+	.proizvodi-line li {
+		margin: 0;
+	}
+	#svi-proizvodi {
+		-webkit-transform: none;
+		transform: none;
+		position: static;
+		padding-top: 20px;
+		margin: 0 40px;
+	}
+	.impressum-table {
+	position: relative;
+	width: 100%;
+	top: 0px;
+	-webkit-transform: none;
+	transform: none;
+	
+    }
+    .impressum-img {
+	text-align:center;
+	
+    }
+	.impressum-table tr {
+	float: left;
+	text-align:center;
+	}
+	.impressum-table td {
+	vertical-align: top;
+	float:left;
+    }
+	
+	.impressum-naslov {
+	font-size: 40px;
+	}
+.impressum-txt {
+	font-size: 12px;
+	}
+.impressum-bold {
+	font-size: 15px;
+	}
+
+
+	/* Fine tuning odnosa velicina slika */
+	.proizvodi-line .slika {
+		width: 70%;
+	}
+	.proizvodi-line .naslov {
+		width: 40%;
+	}
+	#kuchen .slika {
+		width: 100%;
+	}
+	/* Kraj bloka za podesavanje */
+
+
+	#delivery {
+		left: 50%;
+		-webkit-transform: translateX(-50%);
+		transform: translateX(-50%);
+		top: 40px;
+		margin-left: 120px;
+		width: 60px;
+	}
+	#logo {
+		top: 20px;
+		left: 50%;
+		-webkit-transform: translateX(-50%);
+		transform: translateX(-50%);
+	}
+	#levo_menu {
+		width: 80%;
+		right: initial;
+		left: 50%;
+		top: 80px;
+		-webkit-transform: translateX(-50%);
+		transform: translateX(-50%);
+	}
+
+	/* Odeljak vezan za pojedinacne predmete */
+
+	#cena {
+		top: 30px;
+		left: 50%;
+		-webkit-transform: translateX(-105px);
+		transform: translateX(-105px);
+	}
+	#add-to-cart {
+		-webkit-transform: none;
+		transform: none;
+		top: 30px;
+		left: 50%;
+		right: initial;
+	}
+	.proizvod-slika-pozadina {
+		width: 340px;
+		height: 340px;
+		left: 0;
+		top: 140px;
+		-webkit-transform: none;
+		transform: none;
+	}
+	#opis {
+		width: 410px;
+		height: auto;
+		left: initial;
+		right: 10px;
+		top: 140px;
+		-webkit-transform: none;
+		transform: none;
+	}
+
+
+}
+
+
+@media (max-width : 768px) {
+
+	.proizvodi-line li {
+		margin: 40px 0;
+	}
+
+
+	/* Fine tuning odnosa velicina slika */
+	.proizvodi-line .slika {
+		width: 60%;
+	}
+	.proizvodi-line .naslov {
+		width: 60%;
+	}
+	#kuchen .slika {
+		width: 100%;
+	}
+	/* Kraj bloka za podesavanje */
+
+
+
+	#kuchen {
+		-webkit-order: 5;
+		-ms-flex-order: 5;
+		order: 5;
+	}
+	#drinks {
+		-webkit-order: 4;
+		-ms-flex-order: 4;
+		order: 4;
+	}
+
+
+
+	#delivery {
+		left: 50%;
+		-webkit-transform: translateX(-50%);
+		transform: translateX(-50%);
+		top: 40px;
+		margin-left: 120px;
+		width: 60px;
+	}
+	#logo {
+		width: 230px;
+		top: 20px;
+		left: 50%;
+		-webkit-transform: translateX(-50%);
+		transform: translateX(-50%);
+	}
+	#levo_menu {
+		width: 100%;
+		right: initial;
+		left: 50%;
+		top: 80px;
+		-webkit-transform: translateX(-50%);
+		transform: translateX(-50%);
+		font-size: 12px;
+	}
+
+	.proizvod-slika-pozadina {
+		display: block;
+		-webkit-transform: none;
+		transform: none;
+		width: 80%;
+		margin: 140px auto 0 auto;
+		position: relative;
+		top: 0;
+		left: 0;
+	}
+	#opis {
+		display: block;
+		-webkit-transform: none;
+		transform: none;
+		position: static;
+		width: 100%;
+		padding: 0;
+	}
+	#opis h2 {
+		text-align: center;
+	}
+
+
+
+
+
+}
+
+
+@media (max-width : 480px) {
+
+	main {
+		padding: 30px 0 0 0;
+		height: calc(100vh - 55px);
+		top: 55px;
+	}
+
+	.proizvodi-line {
+		-webkit-flex-wrap: wrap;-ms-flex-wrap: wrap;flex-wrap: wrap;
+		width: 100%;
+	}
+	.menu-back {
+		height:55px; 
+		z-index:1100; 
+	}
+
+
+
+	#svi-proizvodi {
+	    margin: 0 20px;
+	}
+	/* Podesavanje unutrasnjih itema */
+	.proizvodi-line li {
+		width: 50%;
+		margin: 40px 0;
+	}
+	.proizvodi-line #kuchen {
+		width: 380px;
+	}
+	/* Fine tuning odnosa velicina slika */
+	.proizvodi-line .slika {
+		width: 60%;
+	    display: inline;
+	}
+	.proizvodi-line .naslov {
+		width: 30%;
+	    display: inline;
+	}
+	#kuchen .slika {
+		width: 80%;
+		display: block;
+	}
+	#kuchen .naslov {
+		width: 60%;
+		display: block;
+	}
+	/* Kraj bloka za podesavanje */
+
+
+
+	.mobile-hidden {
+		display: block;
+	}
+	.menu-back-dole {
+		display:none;
+	}
+
+	#levo_menu {
+		display:none;
+		background-color: rgba(255, 255, 255, 0.9);
+		top: 55px;
+		left: auto;
+		right: 0px;
+		width:200px;
+		padding-right: 10px;
+		margin-left: 0px; 
+		position:fixed;
+		z-index:1100;
+		-webkit-transform: none;transform: none;
+	} 
+
+
+	#levo_menu ul {
+		display: block;
+	}
+	#levo_menu ul li {
+		display: block;
+	}
+
+	#dole_menu {
+		display:none;
+		bottom: auto;
+		top: 275px;
+		left: auto;
+		right: 10px;
+		width:200px;
+		margin-left: 0px;
+		position:fixed;
+		z-index:1100;
+	} 
+
+
+	#logo {
+		width: 240px;
+		margin-left: 0px;
+		top: 10px;
+		left: 10px;
+		-webkit-transform: none;		transform: none;
+	}
+	#delivery {	
+		margin-left: 0px;
+		left: 220px; 
+		top: 38px;
+		width: 55px;
+		z-index:1200;
+	}
+	#mobile-dugme {
+		position: fixed;
+		display:block;
+		right: 5px;
+		top: 5px;
+		width: 50px;
+		z-index: 2000;
+	}
+	#mobile-dugme2 {
+		display:none;
+		position: fixed;
+		right: 5px;
+		top: 5px;
+		width: 50px;
+		z-index: 2001;
+	}
+
+	.levi_bar { text-align:right;}
+	.desni_bar { text-align:right;}
+
+	.proizvod-slika-pozadina {
+		height: 280px;
+		margin-top: 80px;
+		width: 100%;
+	}
+	#opis h2 {
+		margin: 0 auto;
+		font-size: 30px;
+	}
+	#opis h3 {
+		font-size: 14px;
+		text-align: center;
+	}
+	#add-to-cart {
+		width: 80px;
+		height: 80px;
+	}
+	#cena {
+		width: 80px;
+		height: 80px;
+		-webkit-transform: translateX(-80px);
+		        transform: translateX(-80px);
+	}
+	#cena h5 {
+		font-size: 27px;
+		line-height: 27px;
+	}
+	#checkout-button {
+		right: 0;
+	}
+
+
+}
