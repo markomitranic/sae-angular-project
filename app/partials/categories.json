@@ -1,0 +1,27 @@
+[
+	{
+		"title" : "Pan Cakes",
+		"link"	: "#/category/pancakes",
+		"image"	: "pan-cakes"
+	},
+		{
+		"title" : "Musli",
+		"link"	: "#/category/musli",
+		"image"	: "musli"
+	},
+		{
+		"title" : "Salat",
+		"link"	: "#/category/salat",
+		"image"	: "salat"
+	},
+		{
+		"title" : "Risotto",
+		"link"	: "#/category/risotto",
+		"image"	: "risotto"
+	},
+		{
+		"title" : "Bio-Drinks",
+		"link"	: "#/category/drinks",
+		"image"	: "drinks"
+	}
+]

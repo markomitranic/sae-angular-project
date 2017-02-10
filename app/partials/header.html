@@ -9,15 +9,16 @@
 
 		<div id="levo_menu">
 			<ul class="levi_bar">
+
 				<li class="mobile-hidden" id="home"><a href="./">Home</a></li>
-				<li class="product-category-link" data-category="pan_cakes">Pan cakes</li>
-				<li class="product-category-link" data-category="musli">MÜsli</li>
-				<li class="product-category-link" data-category="kuchen">Kuchen</li> 
-				<li class="product-category-link" data-category="risotto">Risotto</li>  
-				<li class="product-category-link" data-category="drinks">Bio - Drinks</li> 
-				<li class="product-category-link" data-category="deal">Daily deal</li>               
+
+				<li class="product-category-link" ng-repeat="category in categories">
+					<a ng-href="{{category.link}}">{{category.title}}</a>
+				</li>
+
 				<li class="product-category-link mobile-hidden"><a href="./contact">Kontakt</a></li>
-				<li class="product-category-link mobile-hidden"><a href="./impressum">Impressum</a></li>    
+				<li class="product-category-link mobile-hidden"><a href="./impressum">Impressum</a></li>                
+   
 			</ul>   
 		</div>
 	</header>
