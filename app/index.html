@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="myApp" ng-controller="homeController">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta charset="utf-8" />
@@ -35,6 +35,12 @@
 	<!-- jQuery CDN -->
 	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 
+
+	<script src="scripts/angular.min.js"></script>
+	<script src="scripts/angular-route.js"></script>
+
+
+
 </head>	
 <body>
 
@@ -63,6 +69,11 @@
 
 
 	<main>
+
+
+	{{ime}}
+
+
 		<div id="svi-proizvodi">
 			<ul class="proizvodi-line">
 				<li id="risotto" class="product-category-link" data-category="risotto">
@@ -228,10 +239,15 @@
 		}
 	</div>
 
-	<script src="scripts/contentReplacer.js"></script> <!-- Handles loading the products -->
-	<script src="scripts/cart.js"></script> <!-- Handles loading the products -->
-	<script src="scripts/cookie.js"></script> <!-- Handles cookies -->
-	<script src="scripts/delegate.js"></script> <!-- All the JS calls -->
+
+	
+	<script src="scripts/app.js"></script>
+
+<!-- 
+	<script src="scripts/contentReplacer.js"></script>
+	<script src="scripts/cart.js"></script> 
+	<script src="scripts/cookie.js"></script>
+	<script src="scripts/delegate.js"></script> <!-- All the JS calls --> -->
 
 </body>
 </html>
