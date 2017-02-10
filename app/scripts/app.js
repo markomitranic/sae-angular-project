@@ -2,31 +2,45 @@ var myApp = angular.module('myApp', ['ngRoute']);
 
 
 
+myApp.config(function ($routeProvider){
+	$routeProvider
+	.when('/', {
+		templateUrl: 'partials/home.html',
+		controller: 'homeController'
+	})
+	.when('/home', {
+		redirectTo: '/'
+	})
+	.when('/category/:category_name', {
+		templateUrl: 'partials/category.html',
+		controller: 'categoryController'
+	})
+	.when('/cart', {
+		templateUrl: 'partials/cart.html',
+		controller: 'cartController'
+	})
+	.otherwise({
+		redirectTo: '/'
+	});
+});
+
+
+
+
 myApp.controller('homeController', function($scope, $http) {
 
 	$scope.ime = "Hello World";
 
-	// $http.get('data/users.json').success(function(data){
-	// 	$scope.users = $scope.shuffleArray(data);
-	// });
+});
 
-	// $scope.showMessage = function() {
-	// 	var ime = $scope.getName();
-	// 	alert("Hello " + ime + '!');
-	// };
+myApp.controller('categoryController', function($scope, $http, $routeParams) {
+	$scope.ime = "SUPA";
 
-	// $scope.getName = function() {
-	// 	return $scope.ime;
-	// };
 
-	// $scope.shuffleArray = function (array) {
-	//     for (var i = array.length - 1; i > 0; i--) {
-	//         var j = Math.floor(Math.random() * (i + 1));
-	//         var temp = array[i];
-	//         array[i] = array[j];
-	//         array[j] = temp;
-	//     }
-	//     return array;
-	// };
+	console.log($routeParams.category_name);
 
+});
+
+myApp.controller('cartController', function($scope, $http) {
+	$scope.ime = "CART";
 });

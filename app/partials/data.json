@@ -1,0 +1,62 @@
+{
+	"risotto": [
+		{
+			"id" : 13,
+			"name" : "Pink Risotto Spargel & rote bete",
+			"price" : "5,90€",
+			"image" : "image/proizvodi/pink-risotto.png",
+			"description" : "Spargel & rote bete Zutaten: Risotto, grüner Spargel, rote bete, Salz, Wasser, Weiß Wein, Parmesan, Butter, Sonnenblumen Öl, Wein Essig. Mit Laktose, Glutenfrei!"
+		},
+		{
+			"id" : 14,
+			"name" : "Pink Risotto Spargel & rote bete",
+			"price" : "5,90€",
+			"image" : "image/proizvodi/pink-risotto.png",
+			"description" : "Spargel & rote bete Zutaten: Risotto, grüner Spargel, rote bete, Salz, Wasser, Weiß Wein, Parmesan, Butter, Sonnenblumen Öl, Wein Essig. Mit Laktose, Glutenfrei!"
+		},
+		{
+			"id" : 15,
+			"name" : "Pink Risotto Spargel & rote bete",
+			"price" : "5,90€",
+			"image" : "image/proizvodi/pink-risotto.png",
+			"description" : "Spargel & rote bete Zutaten: Risotto, grüner Spargel, rote bete, Salz, Wasser, Weiß Wein, Parmesan, Butter, Sonnenblumen Öl, Wein Essig. Mit Laktose, Glutenfrei!"
+		},
+		{
+			"id" : 16,
+			"name" : "Pink Risotto Spargel & rote bete",
+			"price" : "5,90€",
+			"image" : "image/proizvodi/pink-risotto.png",
+			"description" : "Spargel & rote bete Zutaten: Risotto, grüner Spargel, rote bete, Salz, Wasser, Weiß Wein, Parmesan, Butter, Sonnenblumen Öl, Wein Essig. Mit Laktose, Glutenfrei!"
+		}
+	],
+	"musli": [
+		{
+			"id" : 17,
+			"name" : "Pink Risotto Spargel & rote bete",
+			"price" : "5,90€",
+			"image" : "image/proizvodi/pink-risotto.png",
+			"description" : "Spargel & rote bete Zutaten: Risotto, grüner Spargel, rote bete, Salz, Wasser, Weiß Wein, Parmesan, Butter, Sonnenblumen Öl, Wein Essig. Mit Laktose, Glutenfrei!"
+		},
+		{
+			"id" : 18,
+			"name" : "Pink Risotto Spargel & rote bete",
+			"price" : "5,90€",
+			"image" : "image/proizvodi/pink-risotto.png",
+			"description" : "Spargel & rote bete Zutaten: Risotto, grüner Spargel, rote bete, Salz, Wasser, Weiß Wein, Parmesan, Butter, Sonnenblumen Öl, Wein Essig. Mit Laktose, Glutenfrei!"
+		},
+		{
+			"id" : 19,
+			"name" : "Pink Risotto Spargel & rote bete",
+			"price" : "5,90€",
+			"image" : "image/proizvodi/pink-risotto.png",
+			"description" : "Spargel & rote bete Zutaten: Risotto, grüner Spargel, rote bete, Salz, Wasser, Weiß Wein, Parmesan, Butter, Sonnenblumen Öl, Wein Essig. Mit Laktose, Glutenfrei!"
+		},
+		{
+			"id" : 20,
+			"name" : "Pink Risotto Spargel & rote bete",
+			"price" : "5,90€",
+			"image" : "image/proizvodi/pink-risotto.png",
+			"description" : "Spargel & rote bete Zutaten: Risotto, grüner Spargel, rote bete, Salz, Wasser, Weiß Wein, Parmesan, Butter, Sonnenblumen Öl, Wein Essig. Mit Laktose, Glutenfrei!"
+		}
+	]
+}
