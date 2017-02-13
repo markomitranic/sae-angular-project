@@ -1,8 +1,7 @@
 @font-face {
 	font-family: 'AmericanTypewriter';
-	src: url('cufonts.com_american-typewriter.eot');
+	src: url('ufonts.com_american-typewriter.eot');
 	src: url('ufonts.com_american-typewriter.eot?#iefix') format('embedded-opentype'),
-	url('ufonts.com_american-typewriter.woff') format('woff'),
 	url('ufonts.com_american-typewriter.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
@@ -402,7 +401,7 @@ main.zimt_body > div {
 .proizvod-slika-pozadina {
 	height: 400px;
 	width: 414px;
-	background-image: url('image/proizvodi/proizvod-pozadina.png');
+	// background-image: url('image/proizvodi/proizvod-pozadina.png');
 	background-size: contain;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -453,7 +452,7 @@ main.zimt_body > div {
 }
 #cena {
 	position: absolute;
-	background-image: url(image/cena-back.png);
+	// background-image: url(image/cena-back.png);
 	background-size: contain;
 	background-position: center center;
 	background-repeat: no-repeat; 

@@ -17,6 +17,7 @@ $(document).ready(function() {
 
 	// Listener for buying stuff
 	$('#add-to-cart').on('click', function() {
+		console.log('marko');
 		if (cookieExists('ordered') && getCookie('ordered') !== '[]') {
 			addCookieData($(this).data('id'), getCookie('ordered'));
 		} else {

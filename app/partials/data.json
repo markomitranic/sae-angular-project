@@ -1,62 +1,305 @@
 {
+	"deal": {},
+	"drinks": [
+		{
+			"id": 326,
+			"name": "Le Domaine von Domaine le Grand Vallat",
+			"price": "9.00",
+			"pfand": false,
+			"image": "http:\/\/zzdelivery.de\/wp-content\/uploads\/2016\/10\/vinorot.png",
+			"description": "<p>Harmonisch, weich und ausgewogen präsentieren sich die<\/br>\r\nroten Früchte mit einer würzigen Note (Lakritz).<\/br>\r\nRebsorte(n): \tGrenache Noir \/ Garnacha, Syrah<\/br>\r\nAlkolholgehalt:13,5% . Bio-Zertifikat von: FR-BIO-01<\/br>\r\nInhalt: 0.75 Liter . Jahrgang: 2010 <\/br>\r\ninkl. MwSt. zzgl.Versandkosten<\/p>"
+		},
+		{
+			"id": 323,
+			"name": "AOP C\u00f4tes de Provence \u00abCroix de Bassons\u00bb",
+			"price": "9.00",
+			"pfand": false,
+			"image": "http:\/\/zzdelivery.de\/wp-content\/uploads\/2016\/10\/vinorose.png",
+			"description": "<p>Kristallklar funkendes zartes Grün-gelb.<\/br>\r\nIm Duft ein feines Blütenaroma <\/br>\r\nvon Jasmin und Lindenblüten.<\/br>\r\nWeisswein Jahrgang: 2015 <\/br>\r\nRebsorten: 100% Rolle (Vermentino).<\/br>\r\nSüßegrad \ttrocken . AOC Côtes de Provence<\/br>\r\nInhalt: 0.75 Liter  TROCKEN Vol. 14,5 % <\/br>\r\ninkl. MwSt.<\/p>"
+		},
+		{
+			"id": 320,
+			"name": "CUVEE DU BATONNIER DOMAINE DE VALDITION",
+			"price": "12.00",
+			"pfand": false,
+			"image": "http:\/\/zzdelivery.de\/wp-content\/uploads\/2016\/10\/vinocuvee.png",
+			"description": "<p>Cuvée du Bâtonnier ist ein Prestige und Premium Roséwein mit leichtem <\/br>\r\nSalzgeschmack, den Frische, Ausgewogenheit und Eleganz vervollkommnen.<\/br>\r\nJahrgang: 2015 <\/br>\r\nRebsorten: 50% Grenache noir, 20% Cabernet-sauvignon,<\/br>\r\n20% Syrah, 10% Chasan<\/br>\r\nSüßegrad \tFruchtig  BIO VINE . Region: Provence<\/br>\r\nInhalt: 0.75 Liter.  12,5% vol<\/br>\r\ninkl. MwSt. zzgl. Versandkosten <\/p>"
+		},
+		{
+			"id": 97,
+			"name": "Proviant Orange Bio Limo!",
+			"price": "2.90",
+			"pfand": false,
+			"image": "http:\/\/zzdelivery.de\/wp-content\/uploads\/2016\/07\/limoz16.png",
+			"description": "<p>Zutaten: frisch gepresster Orangensaft und ein Spritzer<\/br>\r\nZitrone für die Frische dazu, reines Quellwasser und ein<\/br>\r\nwenig Bio-Rohrzucker. Keine Aromastoffe, 0,33 l Flasche.<\/p>"
+		},
+		{
+			"id": 94,
+			"name": "Lemon AID Limo Bio Limette!",
+			"price": "2.90",
+			"pfand": false,
+			"image": "http:\/\/zzdelivery.de\/wp-content\/uploads\/2016\/07\/limoz15.png",
+			"description": "<p>LImo mit ganz viel Limettensaft,<\/br>\r\nein wenig Rohrzucker und Wasser.<\/br>\r\nAlle Zutaten sind biologisch angebaut und stammen<\/br>\r\nvon Kleinbauernkooperativen aus Südamerika. <\/p>"
+		},
+		{
+			"id": 91,
+			"name": "Fritz Limo Bio Rhabarber!",
+			"price": "2.90",
+			"pfand": false,
+			"image": "http:\/\/zzdelivery.de\/wp-content\/uploads\/2016\/07\/limoz14.png",
+			"description": "<p>Fritz-Spritz Bio-Rhabarberschorle in der 0,33l Flasche.<\/br>\r\nDie Rhabarberschorle von Fritz besteht<\/br>\r\naus Bio-Direktsaft. Wie das gesamte Sortiment<\/br>\r\nist auch die Rhabarberschorle Vegan.<\/p>"
+		}
+	],
 	"risotto": [
 		{
-			"id" : 13,
-			"name" : "Pink Risotto Spargel & rote bete",
-			"price" : "5,90€",
-			"image" : "image/proizvodi/pink-risotto.png",
-			"description" : "Spargel & rote bete Zutaten: Risotto, grüner Spargel, rote bete, Salz, Wasser, Weiß Wein, Parmesan, Butter, Sonnenblumen Öl, Wein Essig. Mit Laktose, Glutenfrei!"
+			"id": 237,
+			"name": "Spaghetti mit Rucola Pesto!",
+			"price": "5.90",
+			"pfand": {
+				"0": "true"
+			},
+			"image": "http:\/\/zzdelivery.de\/wp-content\/uploads\/2016\/08\/spaget2.png",
+			"description": "<p>Zutaten: Spaghetti aus HARTWEIZEN,  CherryTomaten, Schwarze Oliven, Petersilie,  Salz, Pfeffer, Oliven ÖL, Knoblauch, Hausgemachtem Rucola Erdnus Pesto!<\/p>\r\n<h4>* 1.3.5. 1.LAKTOSE 2.SENF 3.GLUTEN 4.FARBSTOF 5.NÜSSE 6.ESSIG 7.APFEL 8.Ei<\/h4>"
 		},
 		{
-			"id" : 14,
-			"name" : "Pink Ridwadawsotto Spargel & rote bete",
-			"price" : "5,90€",
-			"image" : "image/proizvodi/pink-risotto.png",
-			"description" : "Spargel & rote bete Zutaten: Risotto, grüner Spargel, rote bete, Salz, Wasser, Weiß Wein, Parmesan, Butter, Sonnenblumen Öl, Wein Essig. Mit Laktose, Glutenfrei!"
+			"id": 234,
+			"name": "Spaghetti Tono",
+			"price": "5.90",
+			"pfand": "",
+			"image": "http:\/\/zzdelivery.de\/wp-content\/uploads\/2016\/08\/spaget1.png",
+			"description": "<p>Zutaten: Spaghetti aus HARTWEIZEN, Tunfisch, CherryTomaten, Schwarze Oliven, Petersilie, Salz, Pfeffer, Oliven ÖL.<\/p>\r\n<h4>*1.3. *1. LAKTOSE 2.SENF 3.GLUTEN 4.FARBSTOF 5.NÜSSE 6.ESSIG 7.APFEL 8.Ei<\/h4>"
 		},
 		{
-			"id" : 15,
-			"name" : "Pink Risotto Spargel & rote bete",
-			"price" : "5,90€",
-			"image" : "image/proizvodi/pink-risotto.png",
-			"description" : "Spargel & rote bete Zutaten: Risotto, grüner Spargel, rote bete, Salz, Wasser, Weiß Wein, Parmesan, Butter, Sonnenblumen Öl, Wein Essig. Mit Laktose, Glutenfrei!"
+			"id": 230,
+			"name": "Spaghetti mit Garnelen!",
+			"price": "5.90",
+			"pfand": false,
+			"image": "http:\/\/zzdelivery.de\/wp-content\/uploads\/2016\/08\/spaget3.png",
+			"description": "<p>Zutaten: Spaghetti aus HARTWEIZEN, Garnlen, CherryTomaten, Schwarze Oliven, Petersilie, Salz, Pfeffer, Oliven ÖL, Knoblauch.<\/p>\r\n<h4>*1.3.4.6.<\/br> \r\n*1.LAKTOSE 2.SENF 3.GLUTEN 4.FARBSTOF 5.NÜSSE 6.ESSIG 7.APFEL 8.Ei<\/h4>\r\n"
 		},
 		{
-			"id" : 16,
-			"name" : "Pink Risotto Spargel & rote bete",
-			"price" : "5,90€",
-			"image" : "image/proizvodi/pink-risotto.png",
-			"description" : "Spargel & rote bete Zutaten: Risotto, grüner Spargel, rote bete, Salz, Wasser, Weiß Wein, Parmesan, Butter, Sonnenblumen Öl, Wein Essig. Mit Laktose, Glutenfrei!"
+			"id": 221,
+			"name": "Risotto Tomato",
+			"price": "5.90",
+			"pfand": false,
+			"image": "http:\/\/zzdelivery.de\/wp-content\/uploads\/2016\/08\/risotto19.png",
+			"description": "<p>Zutaten: Risotto, Salz, Wasser, Tomaten,<\/br>\r\nZucker, Weiß Wein, Parmesan, Butter, Sonnenblumen Öl.<\/p>\r\n<h4>*1.6.<\/br>\r\n**1.LAKTOSE 2.SENF 3.GLUTEN 4.FARBSTOF 5.NÜSSE 6.ESSIG 7.APFEL 8.Ei<\/h4>"
+		},
+		{
+			"id": 105,
+			"name": "Risotto Classico",
+			"price": "5.90",
+			"pfand": false,
+			"image": "http:\/\/zzdelivery.de\/wp-content\/uploads\/2016\/07\/risoto1.png",
+			"description": "<p>Zutaten: Risotto, Salz, Wasser,<\/br>\r\nWeiß Wein, Parmesan, Butter, Sonnenblumen Öl.<\/p>\r\n<h4>*1.6.<\/br>\r\n1.LAKTOSE 2.SENF 3.GLUTEN 4.FARBSTOF 5.NÜSSE 6.ESSIG 7.APFEL 8.Ei<\/h4>"
+		},
+		{
+			"id": 102,
+			"name": "Pink Risotto Spargel & rote bete",
+			"price": "5.90",
+			"pfand": false,
+			"image": "http:\/\/zzdelivery.de\/wp-content\/uploads\/2016\/07\/risotto17.png",
+			"description": "<p>Spargel & rote bete<\/br>\r\nZutaten: Risotto, grüner Spargel, rote bete, Salz,<\/br>\r\nWasser, Weiß Wein, Parmesan, Butter, Sonnenblumen Öl,<\/br>\r\nWein Essig.<\/p>\r\n<h4>*1.6.<\/br>\r\n*1. LAKTOSE 2.SENF 3.GLUTEN 4.FARBSTOF 5.NÜSSE 6.ESSIG 7.APFEL 8.Ei<\/h4>\r\n\r\n"
+		}
+	],
+	"kuchen": [
+		{
+			"id": 88,
+			"name": "GLUTENFREI! Schoko Nuss Torte nach Z&Z Art",
+			"price": "3.60",
+			"pfand": false,
+			"image": "http:\/\/zzdelivery.de\/wp-content\/uploads\/2016\/07\/kolac1.png",
+			"description": "<p>Zutaten: Glutenfreie Mehl, Eier, Zucker, Margarine,<\/br>\r\nWalnuss, Salz, Mandeln, Kakao, zart bitter Schokolade.<\/p>\r\n<h4>*5.8.<\/br>\r\n*1.LAKTOSE 2.SENF 3.GLUTEN 4.FARBSTOF 5.NÜSSE 6.ESSIG 7.APFEL 8.Ei<\/h4>"
+		},
+		{
+			"id": 85,
+			"name": "Linzer Nuss Torte nach Z&Z Art",
+			"price": "3.60",
+			"pfand": false,
+			"image": "http:\/\/zzdelivery.de\/wp-content\/uploads\/2016\/07\/cakez12.png",
+			"description": "<p>Zutaten: Weizen Mehl, Butter, Eier, Zimt,<\/br>\r\nZucker, Pflaumenmousse, Salz, Mandeln, Kakao.<\/p>\r\n<h4>*1.3.5.8.<\/br>\r\n*1.LAKTOSE 2.SENF 3.GLUTEN 4.FARBSTOF 5.NÜSSE 6.ESSIG 7.APFEL 8.Ei<\/h4>"
+		},
+		{
+			"id": 41,
+			"name": "Engadiner Nuss Kuchen nach Art des Hauses",
+			"price": "3.60",
+			"pfand": false,
+			"image": "http:\/\/zzdelivery.de\/wp-content\/uploads\/2016\/07\/cakez11.png",
+			"description": "<p>Zutaten: Weizen Mehl, Butter, Schlagsahne, Eier,<\/br>\r\nHonig, Rohr und Weißer Zucker, Wasser.<\/p>\r\n<h4>*1.3.5.8.<\/br>\r\n*1.LAKTOSE 2.SENF 3.GLUTEN 4.FARBSTOF 5.NÜSSE 6.ESSIG 7.APFEL 8.Ei<\/h4>"
+		},
+		{
+			"id": 240,
+			"name": "HOME MADE! TIRAMISU",
+			"price": "5.90",
+			"pfand": false,
+			"image": "http:\/\/zzdelivery.de\/wp-content\/uploads\/2016\/08\/kuchen33.png",
+			"description": "<p>Zutaten: Tiramisu Creme, Mehl, Zucker,<\/br>\r\nKakao, Vanille Schote, Sambuca, Espresso,<\/br>\r\nAmareto, Mascarpone. im 475 Ml Glas<\/p>\r\n<h4>*1.3.4.5.<\/br>\r\n1.LAKTOSE 2.SENF 3.GLUTEN 4.FARBSTOF 5.NÜSSE 6.ESSIG 7.APFEL 8.Ei<\/h4>"
+		},
+		{
+			"id": 111,
+			"name": "Ofenschlupfer",
+			"price": "5.90",
+			"pfand": false,
+			"image": "http:\/\/zzdelivery.de\/wp-content\/uploads\/2016\/07\/musli5-2.png",
+			"description": "<p>Zutaten: Brot, Weizen Mehl, Wasser, Apfel, Zitronensaft,<\/br>\r\nZimt, Zucker, Vanillezucker, Eier, Vanillepuding, Milch.<\/br>\r\nim 475 Ml Glas<\/p>\r\n<h4>*1.3.5.7.8.<\/br>\r\n*1.LAKTOSE 2.SENF 3.GLUTEN 4.FARBSTOF 5.NÜSSE 6.ESSIG 7.APFEL 8.Ei<\/h4>"
+		},
+		{
+			"id": 45,
+			"name": "Pan Cakes MIT BLAUBEEREN",
+			"price": "7.90",
+			"pfand": false,
+			"image": "http:\/\/zzdelivery.de\/wp-content\/uploads\/2016\/03\/pancake1.png",
+			"description": "<p>Zutaten: Eier, Zucker, Weizen Mehl,<\/br>\r\nBackpulver, Salz, Milch, Butter.<\/br>\r\nZubereitung: Inhalt auf 1 Teller herausnehmen.<\/br>\r\nIn Mikrowelle 600 W, ca.1,5 Minuten warm machen.<\/br>\r\nBitte kein Glas mit Deckel in Mikro Welle aufwärmen.<\/br>\r\nim 750 ml Glas!<\/p>\r\n<h4>*1.3.8.<\/br>\r\n*1.LAKTOSE 2.SENF 3.GLUTEN 4.FARBSTOF 5.NÜSSE 6.ESSIG 7.APFEL 8.Ei<\/h4>"
 		}
 	],
 	"musli": [
 		{
-			"id" : 17,
-			"name" : "Pink Risotto Spargel & rote bete",
-			"price" : "5,90€",
-			"image" : "image/proizvodi/pink-risotto.png",
-			"description" : "Spargel & rote bete Zutaten: Risotto, grüner Spargel, rote bete, Salz, Wasser, Weiß Wein, Parmesan, Butter, Sonnenblumen Öl, Wein Essig. Mit Laktose, Glutenfrei!"
+			"id": 281,
+			"name": "BIRCHER M\u00fcsli",
+			"price": "5.90",
+			"pfand": false,
+			"image": "http:\/\/zzdelivery.de\/wp-content\/uploads\/2016\/10\/musli1.png",
+			"description": "<p>Zutaten: Crunchy Müsli, griechischer Joghurt, Haferflocken<\/br>\r\napfel, Honig, Joghurt, Sahne, Zucker, Haselnüsse!<\/br>\r\nim 470 ml Glas!<\/p>\r\n<h4>*1.3.5.7.<\/br>\r\n*1.LAKTOSE 2.SENF 3.GLUTEN 4.FARBSTOF 5.NÜSSE 6.ESSIG 7.APFEL 8.Ei<\/h4>"
 		},
 		{
-			"id" : 18,
-			"name" : "Pink Risotto Spargel & rote bete",
-			"price" : "5,90€",
-			"image" : "image/proizvodi/pink-risotto.png",
-			"description" : "Spargel & rote bete Zutaten: Risotto, grüner Spargel, rote bete, Salz, Wasser, Weiß Wein, Parmesan, Butter, Sonnenblumen Öl, Wein Essig. Mit Laktose, Glutenfrei!"
+			"id": 64,
+			"name": "Berry Crunchy M\u00fcsli mit Joghurt",
+			"price": "5.90",
+			"pfand": false,
+			"image": "http:\/\/zzdelivery.de\/wp-content\/uploads\/2016\/07\/musli2.png",
+			"description": "<p>Zutaten: Crunchy Müsli, griechischer Joghurt,<\/br>\r\nHimbeeren, Honig, Kokos Milch, Joghurt, Sahne, Zucker!<\/br>\r\nim 470 ml Glas!<\/p>\r\n<h4>*1.3. & Himbeeren<\/br>\r\n*1. LAKTOSE 2.SENF 3.GLUTEN 4.FARBSTOF 5.NÜSSE 6.ESSIG 7.APFEL 8.Ei<\/h4>"
 		},
 		{
-			"id" : 19,
-			"name" : "Pink Risotto Spargel & rote bete",
-			"price" : "5,90€",
-			"image" : "image/proizvodi/pink-risotto.png",
-			"description" : "Spargel & rote bete Zutaten: Risotto, grüner Spargel, rote bete, Salz, Wasser, Weiß Wein, Parmesan, Butter, Sonnenblumen Öl, Wein Essig. Mit Laktose, Glutenfrei!"
+			"id": 61,
+			"name": "MAMASITA Crunchy M\u00fcsli mit Joghurt",
+			"price": "5.90",
+			"pfand": false,
+			"image": "http:\/\/zzdelivery.de\/wp-content\/uploads\/2016\/07\/musli3-2.png",
+			"description": "<p>Zutaten: Crunchy Müsli, griechischer Joghurt,<\/br>\r\nAnanas, Honig, Kokosmilch, Joghurt, Sahne, Zucker!<\/br>\r\nim 470 ml Glas!<\/p>\r\n<h4>*1.3. & Ananas<\/br>\r\n*1. LAKTOSE 2.SENF 3.GLUTEN 4.FARBSTOF 5.NÜSSE 6.ESSIG 7.APFEL 8.Ei<\/h4>"
 		},
 		{
-			"id" : 20,
-			"name" : "Pink Risotto Spargel & rote bete",
-			"price" : "5,90€",
-			"image" : "image/proizvodi/pink-risotto.png",
-			"description" : "Spargel & rote bete Zutaten: Risotto, grüner Spargel, rote bete, Salz, Wasser, Weiß Wein, Parmesan, Butter, Sonnenblumen Öl, Wein Essig. Mit Laktose, Glutenfrei!"
+			"id": 58,
+			"name": "BANANA Crunchy M\u00fcsli mit Joghurt",
+			"price": "5.90",
+			"pfand": false,
+			"image": "http:\/\/zzdelivery.de\/wp-content\/uploads\/2016\/07\/musli4-2.png",
+			"description": "<p>Zutaten: Crunchy Müsli mit Früchten, griechischer Joghurt,<\/br>\r\nHimbeeren, Honig, Kokosmilch, Joghurt, Sahne, Zucker!<\/br>\r\nim 470 ml Glas!<\/p>\r\n<h4>*1.3. & Banane<\/br>\r\n*1. LAKTOSE 2.SENF 3.GLUTEN 4.FARBSTOF 5.NÜSSE 6.ESSIG 7.APFEL 8.Ei<\/h4>"
+		}
+	],
+	"pan_cakes": [
+		{
+			"id": 270,
+			"name": "Risotto Classico & Kl. Salat",
+			"price": "9.90",
+			"pfand": false,
+			"image": "http:\/\/zzdelivery.de\/wp-content\/uploads\/2016\/10\/menue3.png",
+			"description": "<p>Zutaten: Risotto, Salz, Wasser,<\/br>\r\nWeiß Wein, Parmesan, Butter, Sonnenblumen Öl.<\/br>\r\nZutaten Salat,: Rucolasalat, CherryTomaten,<\/br>\r\nBalsamico Weiss Essig, Salz , Pfeffer<\/p>\r\n<h4>*1.6.<\/br>\r\n1.LAKTOSE 2.SENF 3.GLUTEN 4.FARBSTOF 5.NÜSSE 6.ESSIG 7.APFEL 8.Ei<\/h4>"
+		},
+		{
+			"id": 267,
+			"name": "Risotto Tomato & Kl. Salat",
+			"price": "9.90",
+			"pfand": false,
+			"image": "http:\/\/zzdelivery.de\/wp-content\/uploads\/2016\/10\/menue2.png",
+			"description": "<p>Zutaten: Risotto, Salz, Wasser, Tomaten,<\/br>\r\nZucker, Weiß Wein, Parmesan, Butter, Sonnenblumen Öl.<\/br>\r\nZutaten Salat,: Rucolasalat, CherryTomaten,<\/br>\r\nBalsamico Weiss Essig, Salz , Pfeffer<\/p>\r\n<h4>*1.6.<\/br>\r\n*1.LAKTOSE 2.SENF 3.GLUTEN 4.FARBSTOF 5.NÜSSE 6.ESSIG 7.APFEL 8.Ei<\/h4>"
+		},
+		{
+			"id": 264,
+			"name": "Pink Risotto  Spargel & rote bete und Kl. Salat",
+			"price": "9.90",
+			"pfand": false,
+			"image": "http:\/\/zzdelivery.de\/wp-content\/uploads\/2016\/10\/menue1.png",
+			"description": "<p>Zutaten: Risotto, grüner Spargel, rote bete, Salz,<\/br>\r\nWasser, Weiß Wein, Parmesan, Butter, Sonnenblumen Öl,<\/br>\r\nWein Essig.<\/br>\r\nZutaten Salat,: Rucolasalat, CherryTomaten, Balsamico Weiss Essig, Salz , Pfeffer<\/p>\r\n<h4>*1.6.<\/br>\r\n*1. LAKTOSE 2.SENF 3.GLUTEN 4.FARBSTOF 5.NÜSSE 6.ESSIG 7.APFEL 8.Ei<\/h4>"
+		},
+		{
+			"id": 313,
+			"name": "Pizza mit Spinat",
+			"price": "8.90",
+			"pfand": false,
+			"image": "http:\/\/zzdelivery.de\/wp-content\/uploads\/2016\/10\/spinat.png",
+			"description": "<p>Zutaten: Spinat,Mehl, Salz, Oliven Öl, Käse.<\/br>\r\nca. 33 cm<\/p>\r\n<h4>*1.3.<\/br>\r\n*1.LAKTOSE 2.SENF 3.GLUTEN 4.FARBSTOF 5.NÜSSE 6.ESSIG 7.APFEL 8.Ei<\/h4>"
+		},
+		{
+			"id": 310,
+			"name": "Pizza Veggie",
+			"price": "8.90",
+			"pfand": false,
+			"image": "http:\/\/zzdelivery.de\/wp-content\/uploads\/2016\/10\/veggie.png",
+			"description": "<p>Zutaten:  Broccoli, Zucchini, Mehl, Salz, Oliven Öl, Käse.<\/br>\r\nZwiebeln, Champignos, Tomaten. ca. 33 CM<\/p>\r\n<h4>*1.3.<\/br>\r\n*1.LAKTOSE 2.SENF 3.GLUTEN 4.FARBSTOF 5.NÜSSE 6.ESSIG 7.APFEL 8.Ei<\/h4> "
+		},
+		{
+			"id": 305,
+			"name": "Pizza Orlando",
+			"price": "8.90",
+			"pfand": false,
+			"image": "http:\/\/zzdelivery.de\/wp-content\/uploads\/2016\/10\/orlando-1.png",
+			"description": "<p>Zutaten:  Zwiebeln, Artischocken, Mehl, Salz, Oliven Öl, Käse.<\/br>\r\nca. 33 CM<\/p>\r\n<h4>*1.3.<\/br>\r\n*1.LAKTOSE 2.SENF 3.GLUTEN 4.FARBSTOF 5.NÜSSE 6.ESSIG 7.APFEL 8.Ei<\/h4>"
+		},
+		{
+			"id": 300,
+			"name": "Pizza Diavolo",
+			"price": "8.90",
+			"pfand": false,
+			"image": "http:\/\/zzdelivery.de\/wp-content\/uploads\/2016\/10\/djavola-1.png",
+			"description": "<p>Zutaten:  Pikanteter Mini Salamie ,Mehl, Salz, Oliven Öl, Käse.<\/br>\r\nca. 33 CM<\/p>\r\n<h4>*1.3.<\/br>\r\n*1.LAKTOSE 2.SENF 3.GLUTEN 4.FARBSTOF 5.NÜSSE 6.ESSIG 7.APFEL 8.Ei<\/h4>"
+		}
+	],
+	"salat": [
+		{
+			"id": 284,
+			"name": "4 K\u00e4se Salat",
+			"price": "7.90",
+			"pfand": false,
+			"image": "http:\/\/zzdelivery.de\/wp-content\/uploads\/2016\/10\/salat4.png",
+			"description": "<p>Zutaten: Rucola, Cherry Tomaten, Pasta,<\/br>\r\nHirtenkäse, Parmesan, Gorgonzola, Emmentaler Käse,<\/br>\r\nund mit hausgemachtem Croutons und Balsamico - Senf,<\/br>\r\nHimbeeren Oliven Öl Dressing, Salz, Pfeffer. 750 Ml Glas<\/p>\r\n<h4>*1.2.3.4.6.7.<\/br>\r\n*1.LAKTOSE 2.SENF 3.GLUTEN 4.FARBSTOF 5.NÜSSE 6.ESSIG 7.APFEL 8.Ei<\/h4>"
+		},
+		{
+			"id": 82,
+			"name": "VEGGIE Salat",
+			"price": "7.90",
+			"pfand": false,
+			"image": "http:\/\/zzdelivery.de\/wp-content\/uploads\/2016\/07\/salat5.png",
+			"description": "<p>Zutaten: Cherry Tomaten, Hausgemachte<\/br>\r\nFalafeln mit Kichererbsen, Petersilie,<\/br>\r\nSalf, Pfeffer, Indischer Kurkuma und Curry<\/br>\r\nmit Hausgemachtem Senf Balsamico Dressing. 750 Ml Glas.<\/p>\r\n<h4>*2.5.6.<\/br>\r\n*1. LAKTOSE 2.SENF 3.GLUTEN 4.FARBSTOF 5.NÜSSE 6.ESSIG 7.APFEL 8.Ei<\/h4>"
+		},
+		{
+			"id": 79,
+			"name": "Salat Little Italy",
+			"price": "7.90",
+			"pfand": false,
+			"image": "http:\/\/zzdelivery.de\/wp-content\/uploads\/2016\/07\/salat6-1.png",
+			"description": "<p>Zutaten: Cherry Tomaten, Weizen Pasta<\/br>\r\nhausgemachtem Croutons, Mini Mozzarella,<\/br>\r\nGrünen Oliven, Balsamico Senf Dressing, Salz, Pfeffer. 750 Ml Glas<\/p>\r\n<h4>*1.2.3.5.6.7.<\/br>\r\n*1. LAKTOSE 2.SENF 3.GLUTEN 4.FARBSTOF 5.NÜSSE 6.ESSIG 7.APFEL 8.Ei<\/h4>"
+		},
+		{
+			"id": 76,
+			"name": "Fitness Salat",
+			"price": "7.90",
+			"pfand": false,
+			"image": "http:\/\/zzdelivery.de\/wp-content\/uploads\/2016\/07\/fit1.png",
+			"description": "<p>Zutaten: Cherry Tomaten, Rote bete,<\/br>\r\nBrokkoli, hausgemachtem Croutons,<\/br>\r\nGrünen Oliven, Joghurt Dressing, Salz, Pfeffer. 750 Ml Glas<\/p>\r\n<h4>* 1.3.<\/br>\r\n*1.LAKTOSE 2.SENF 3.GLUTEN 4.FARBSTOF 5.NÜSSE 6.ESSIG 7.APFEL 8.Ei<\/h4>"
+		},
+		{
+			"id": 73,
+			"name": "Homeboy Salat",
+			"price": "7.90",
+			"pfand": false,
+			"image": "http:\/\/zzdelivery.de\/wp-content\/uploads\/2016\/07\/salat2.png",
+			"description": "<p>Zutaten: Bacon, Cherry Tomaten, Pasta, <\/br>\r\nRucola, Hausgemachtem Croutons und <\/br>\r\nJoghurt Dressing, Salz, Pfeffer. 750 Ml Glas!<\/p>\r\n<h4>*1.3.<\/br>\r\n*1.LAKTOSE 2.SENF 3.GLUTEN 4.FARBSTOF 5.NÜSSE 6.ESSIG 7.APFEL 8.Ei<\/h4>"
+		},
+		{
+			"id": 70,
+			"name": "Popeye Salat",
+			"price": "7.90",
+			"pfand": false,
+			"image": "http:\/\/zzdelivery.de\/wp-content\/uploads\/2016\/07\/salat3.png",
+			"description": "<p>Zutaten: Cherry Tomaten,<\/br>\r\nHirtenkäse, Baby Spinat, Grünen Oliven,<\/br>\r\nund mit hausgemachtem Croutons und<\/br>\r\nJoghurt Dressing, Salz, Pfeffer. 750 Ml Glas.<\/p>\r\n<h4>*1.3.<\/br>\r\n*1.LAKTOSE 2.SENF 3.GLUTEN 4.FARBSTOF 5.NÜSSE 6.ESSIG 7.APFEL 8.Ei<\/h4>"
+		},
+		{
+			"id": 67,
+			"name": "4 K\u00e4se Salat",
+			"price": "7.90",
+			"pfand": false,
+			"image": "http:\/\/zzdelivery.de\/wp-content\/uploads\/2016\/07\/salat6.png",
+			"description": "<p>Zutaten: Rucola, Cherry Tomaten, Pasta,<br \/> Hirtenkäse, Parmesan, Gorgonzola, Emmentaler Käse,<br \/> und mit hausgemachtem Croutons und Balsamico - Senf,<br \/> Himbeeren Oliven Öl Dressing, Salz, Pfeffer.<\/p><p>Mit Laktose und Gluten!<\/p>"
 		}
 	]
 }
